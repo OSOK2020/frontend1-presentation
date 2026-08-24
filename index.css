@@ -1,18 +1,22 @@
 body{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 h1{
     background-color: aqua;
     color: aliceblue;
+    border-radius: 50px;
+    padding: 15px;
 }
 
 
 /*styling av båda listorna*/
 .goalsmission{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     list-style-position: inside;
+    border-radius: 50px;
+    padding: 30px;
 }
 
 /*goals listan stylad enligt ÖK*/
@@ -28,4 +32,20 @@ h1{
 
 b{
     color: whitesmoke;
+}
+
+img{
+    border: 4px solid aquamarine;
+    width: 150px;
+    border-radius: 360px;
+}
+
+button{
+    color: antiquewhite;
+    background-color: aqua;
+    border-radius: 50px;
+}
+
+#veterankraft-img{
+    display: none;
 }
